@@ -1,12 +1,10 @@
 body {
-background-color: #f2d6bb;
+  background-color: #f2d6bb;
 }
 
 nav {
-  background-color:#a6776a ;
+  background-color: #a6776a;
   margin-top: -20%;
-
-
 }
 
 nav ul {
@@ -15,14 +13,12 @@ nav ul {
   margin-right: 3rem;
   margin-left: 1rem;
   padding: 0;
-
 }
 
 nav ul li {
   list-style-type: none;
   margin-left: 5%;
   margin-right: -2%;
-
 }
 
 nav ul li a {
@@ -31,49 +27,64 @@ nav ul li a {
   color: black;
   font-size: 2rem;
   font-family: 'Quicksand', sans-serif;
-
 }
+
 a:hover {
   background-color: #2f0909;
   color: #f2d6bb;
 }
+
 h1 {
   background-color: #f2d6bb;
   font-size: 2.75rem;
   text-align: center;
 }
-img{
+
+img {
   opacity: 0.2;
 }
-.body>image{
+
+.body>image {
   background-color: #f2d6bb;
   margin-left: 10%;
   margin-right: 10%;
 }
-.body>h1{
+
+.body>h1 {
   font-family: 'Permanent Marker', cursive;
   background-color: #f2d6bb;
   font-size: 3rem;
   text-align: center;
   margin-top: -1rem;
   position: relative;
-
 }
-.body>section{
+
+.body>section {
   background-color: #f2d6bb;
   margin-top: -5%;
   height: auto;
 }
-.parent{
-    position: relative;
+
+.parent {
+  position: relative;
 }
 
 h2 {
-   position: absolute;
-   top: 200px;
-   left: 0;
-   width: 100%;
-   margin: 0 auto;
-   width: 100%;
-   height: 50px;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  width: 100%;
+  height: 50px;
+}
+
+footer {
+  width: 100%;
+  margin: auto;
+  height: auto;
+  background: #a6776a;
+  overflow: auto;
+  font-size: 1.5rem;
+  text-align: center;
 }
