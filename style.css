@@ -1,66 +1,36 @@
+/* main css */
 body {
   background-color: #f2d6bb;
 }
-
-nav {
-  background-color: #a6776a;
-  margin-top: -20%;
+section.main-content>h2{
+  margin-top: 2rem;
 }
 
-nav ul {
-  list-style-type: none;
+
+
+/* Iphone 6 css */
+
+
+
+body>h1 {
+  font-family: 'Permanent Marker', cursive;
+  background-color: rgba(242, 214, 187, .1);
+  font-size: 1.5rem;
   text-align: center;
-  margin-right: 3rem;
-  margin-left: 1rem;
-  padding: 0;
+  position: relative;
 }
 
-nav ul li {
-  list-style-type: none;
-  margin-left: 5%;
-  margin-right: -2%;
-}
-
-nav ul li a {
-  display: inline;
-  text-decoration: none;
-  color: black;
-  font-size: 2rem;
-  font-family: 'Quicksand', sans-serif;
-}
-
-a:hover {
-  background-color: #2f0909;
-  color: #f2d6bb;
-}
-
-h1 {
+body>img {
   background-color: #f2d6bb;
-  font-size: 2.75rem;
-  text-align: center;
-}
-
-img {
-  opacity: 0.2;
-}
-
-.body>image {
-  background-color: #f2d6bb;
+  filter:hue-rotate(#a6776a);
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.body>h1 {
-  font-family: 'Permanent Marker', cursive;
-  background-color: #f2d6bb;
-  font-size: 3rem;
-  text-align: center;
-  margin-top: -1rem;
-  position: relative;
-}
 
-.body>section {
+body>section {
   background-color: #f2d6bb;
+  opacity: 0.5;
   margin-top: -5%;
   height: auto;
 }
@@ -69,7 +39,7 @@ img {
   position: relative;
 }
 
-h2 {
+/* section>h2 {
   position: absolute;
   top: 200px;
   left: 0;
@@ -77,9 +47,9 @@ h2 {
   margin: 0 auto;
   width: 100%;
   height: 50px;
-}
+} */
 
-footer {
+body>footer {
   width: 100%;
   margin: auto;
   height: auto;
@@ -88,3 +58,34 @@ footer {
   font-size: 1.5rem;
   text-align: center;
 }
+
+/* Ipod */
+ nav {
+  background-color: #a6776a;
+  /* margin-top: -20%; */
+} */
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type:none;
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-family: 'Quicksand', sans-serif;
+  padding-left: 1.75%;
+}
+
+ a:hover {
+  background-color: #2f0909;
+  color: #f2d6bb;
+}
+/* computer */
