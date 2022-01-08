@@ -7,7 +7,6 @@ section.main-content>h2{
 }
 
 
-
 /* Iphone 6 css */
 
 
@@ -62,7 +61,8 @@ body>footer {
 /* Ipod */
  nav {
   background-color: #a6776a;
-  /* margin-top: -20%; */
+  margin-top: -2.55%;
+  /* margin-bottom: 3%; */
 } */
 
 nav ul {
@@ -94,5 +94,26 @@ margin-top: -1.3em;
 }
 article>h2{
 
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+.row{
+  background-color: #2f0909;
+  margin-top: -3%;
+}
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 /* computer */
